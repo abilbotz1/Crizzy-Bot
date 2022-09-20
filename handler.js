@@ -131,14 +131,14 @@ return buffer
                      }
 
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Crizzy Bot", "caption": `© Fadhil Graphy`, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Khurushi Bot", "caption": `© Riell Graphy`, 'jpegThumbnail': global.thumb}}}
     const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
 
 		//TEMPLATE BUTTON!
 		const buttonsDefault = [
-			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285849261085` } },
-			{ urlButton: { displayText: `github!`, url : `https://github.com/FebriansyahXd` } },
-			{ quickReplyButton: { displayText: `🧑 owner`, id: `${prefix}owner` } },
+			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6282146218274` } },
+			{ urlButton: { displayText: `github!`, url : `https://github.com/RielTod1` } },
+			{ quickReplyButton: { displayText: `🧑‍🦱 owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `💰 donate`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `🗼 ping bot`, id: `${prefix}pingbot` } }
 		]
@@ -228,10 +228,10 @@ if (isSpam) {
 switch(command){
 			case'menu':
 			case'help': {
-				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Fadhil Graphy`
-				anu = `${fke}Hi ${m.pushName} 👋, i'am crizzy!${fke}
+				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Khurushi Children`
+				anu = `${fke}Hi ${m.pushName} 👋, i'am Khurushi!${fke}
 
-╭──❲ *CRIZZY BOT - MD* ❳
+╭──❲ *KHURUSHI BOT - MD* ❳
 │
 │ *Info*
 │> *Nama :* _「 ${m.pushName} 」_
@@ -347,8 +347,8 @@ switch(command){
 `,
 					btn = [{
                                 urlButton: {
-                                    displayText: 'ꜰᴏʟʟᴏᴡ ɪɴꜱᴛᴀɢʀᴀᴍ',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    displayText: 'CARI APA?',
+                                    url: 'donate pulsa co'
                                 }
                             }, {
                                 urlButton: {
@@ -373,7 +373,7 @@ switch(command){
                             }]
 
 				conn.send5ButLoc(from, anu, footerr, global.thumb, btn)
-				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 fdhlgrphy.com_`}, {quoted :{
+				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 Khurushi.com_`}, {quoted :{
 				key: { fromMe: false,
 				participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
@@ -401,10 +401,10 @@ switch(command){
 					 let pes = `*Hallo kak, mau invite bot/donasi ya*
 					
 *⚠️ Nomor :*
-(Dana, OVO, GoPay, ShopeePay)
-	╰≻ 083102650464
+(Dana,Pulsa axis)
+	╰≻ 083813417529
 (Telkomsel)
-	╰≻ 082135724604
+	╰≻ 6282146218274
 (Qris)
 	╰≻ Click the button below. 
 
@@ -426,7 +426,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                     {buttonId: `qriscrizzy`, buttonText: {displayText: 'Pay With QRIS'}, type: 1},
                     {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 2} 
                 ]
-					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/91e21669655c0116b70a4.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Fadhil Graphy` })
+					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/91e21669655c0116b70a4.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Khurushi Children` })
 					} 
 				break
 			case 'qriscrizzy':{
@@ -1135,7 +1135,7 @@ break*/
                 if (!m.isGroup) return m.reply(act.gc)
                 if (!isBotAdmins) return m.reply('jadikan gw admin dulu')
                 if (!isAdmins) return m.reply('only admin')
-				let teks = `─────✪〘 *👥 Tag All* 〙✪─────
+				let teks = `─────✪〘 *🐧 Tag All* 〙✪─────
  
  ≻ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
@@ -1533,7 +1533,7 @@ if ((m.mtype === 'reactionMessage') && m.isGroup) {
         	let buttons = [
                     {buttonId: `owner`, buttonText: {displayText: '𝑶𝑾𝑵𝑬𝑹 𝑩𝑶𝑻'}, type: 1}
                 ]
-			conn.sendMessage(from, {text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 Fadhil Graphy', buttons: buttons, headerType: 5})
+			conn.sendMessage(from, {text:`INVITE DETECT\n\nMau masukin bot ini ke group kamu?`, title: 'LINK GROUP DECTETED', footer: '© 2022 Khurushi Graphy', buttons: buttons, headerType: 5})
 		}
        /* if (m.mtype === 'stickerMessage') {
         	const reactionMessage = {
